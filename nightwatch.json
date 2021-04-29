@@ -40,6 +40,9 @@
         "visual": false,
         "console": false,
         "network": false
+        "platform": env.LT_OPERATING_SYSTEM,
+		"browserName": env.LT_BROWSER_NAME,
+		"version": env.LT_BROWSER_VERSION
       }
     },
     "chrome": {
